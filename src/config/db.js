@@ -1,4 +1,3 @@
-require('dotenv').config(); // Garanta que isso está no topo
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
