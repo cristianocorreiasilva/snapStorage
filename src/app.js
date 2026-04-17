@@ -1,8 +1,6 @@
-require('dotenv').config();
-
+require('dotenv').config(); // LINHA 1: Carrega as variáveis primeiro
 const Express = require("express");
-
-const connection = require("./config/db");
+const connection = require("./config/db"); // LINHA 3: Só chama o banco DEPOIS
 
 const app = Express();
 
